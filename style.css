@@ -1,0 +1,779 @@
+body{
+    margin: 0 0
+}
+
+.home {
+    color: red;
+}
+
+.BTN0{
+    all: unset;
+    font-size: 29px;
+    height: 45px;
+
+    padding: 8px 45px;
+    background: linear-gradient(135deg, rgb(176, 9, 9), rgb(91, 3, 3));
+
+    position: fixed;
+    border-radius: 20px;
+    cursor: pointer;
+
+    float: left;
+    border: 4px solid rgb(0, 0, 0);
+
+    margin-top: 762px;
+    margin-bottom: 0px;
+    margin-left: 1520px;
+    margin-right: 0px;
+}
+
+.BTN0 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.MYPORT{
+    float: left;
+    margin-right: 355px;
+
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Volkhov';
+
+    margin-top: 20px;
+}
+
+.BG1{
+    background-image: url("BG1-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.DAGWAY1 {
+    float: right;
+    width: 404px;
+    height: 404px;
+    border-radius: 50%;
+
+    margin-top: 110px;
+    margin-right: 170px;
+}
+/* ----------------------------------------- */
+.Fname {
+    font-family: 'Volkhov';
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.Fname span {
+    font-size: 135px;
+}
+
+
+.Fcourse {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 0px;
+}
+
+.Fcourse span {
+    color: red;
+}
+
+.Fdetail {
+    font-family: 'Volkhov';
+    font-size: 34px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.BTN1{
+    all: unset;
+    font-size: 29px;
+   
+
+    margin-left: 180px;
+    margin-top: 30px;
+
+    padding: 17px 52px;
+    background: linear-gradient(135deg, rgb(147, 11, 11), rgb(91, 3, 3));
+    color: white;
+
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+
+    border: 4px solid rgb(32, 32, 32);
+}
+
+.BTN1 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ----------------------------------------- */
+
+
+nav {
+    width: 100%;
+    padding: 25px 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+
+    margin-top: 20px;
+    margin-right: 60px;
+    font-family: 'Volkhov';
+    font-size: 10px;
+}
+
+
+nav a {
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: Red;
+    transition:0.2s;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    color: black;
+    transition: 0.2s;
+    font-weight: bold;
+
+}
+/* ----------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------------------- */
+
+.MAIN{
+    background-image: url("BG1-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1730px;
+    height: 1100px;
+
+}
+
+
+
+/* ----------------------------------------- */
+.MYSKILLS1{
+    background-image: url("REDBG_P1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1730px;
+    height: 1400px;
+}
+
+.MYSKILLS2{
+    background-image: url("REDBG_P2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1730px;
+    height: 1675px;
+}
+
+
+.MYS {
+    color: white;
+    font-size: 92px;
+    float: right;
+
+    margin-right: 1110px;
+    margin-top: 135px;
+    margin-bottom: 0px;
+}
+
+.GTK {
+    float: right;
+    font-size: 44px;
+
+    margin-right: 950px;
+    margin-top: 0px;
+}
+
+div .GRN{
+    color: #20FF58;
+}
+
+div .BLUE{
+    color: #3EE9FD;
+}
+
+div .RED{
+    color: #EF0F0F;
+}
+
+
+.AAC{    
+    float: left;
+    color:white;
+
+    font-family: 'Segoe UI';
+    font-size: 88px;
+    font-weight: bold;
+
+    margin-top: 145px;
+    margin-left: 180px;
+    margin-bottom: 0px;
+}
+.AAC_DESC{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+
+    color: white;
+    float: left;
+
+    margin-left: 170px;
+}
+.MYS_AAC{
+    width: 500px;
+    height: 880px;
+
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+
+.SD{    
+    float: right;
+    color:white;
+
+    font-family: 'Segoe UI';
+    font-size: 84px;
+    font-weight: bold;
+
+    margin-top: 145px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+.SD_DESC{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+
+    color: white;
+    float: right;
+
+    margin-right: 160px;
+}
+.MYS_SD{
+    width: 500px;
+    height: 880px;
+
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+
+.TM{    
+    float: left;
+    color:white;
+
+    font-family: 'Segoe UI';
+    font-size: 88px;
+    font-weight: bold;
+
+    margin-top: 145px;
+    margin-left: 160px;
+    margin-bottom: 0px;
+}
+.TM_DESC{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+
+    color: white;
+    float: left;
+
+    margin-left: 180px;
+}
+.MYS_TM{
+    width: 500px;
+    height: 880px;
+
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+
+/* ----------------------------------------- */
+.EDUCATION{
+    background-image: url("BG3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1730px;
+    height: 1300px;
+
+    /* width: 206vh;
+    height: 100vh; */
+}
+
+
+.MYEDUC {
+    color: black;
+    font-size: 92px;
+    float: left;
+
+    margin-left: 750px;
+    margin-top: 105px;
+    margin-bottom: 0px;
+}
+.BCKGRND {
+    float: left;
+    font-size: 74px;
+
+    margin-left: 1060px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.EDUC_TABLE{
+    float: right;
+    margin-right: 120px;
+    margin-top: 70px;
+}
+.SLOGO1, .SLOGO2, .SLOGO3{
+    margin-left: 50px;
+}
+.SLOGO1{
+    content: url("TLOGO2.jpg");
+    width: 177px;
+    height:177px;
+    border-radius: 50%;
+
+    padding: 30px 30px;
+}
+.SLOGO2{
+    content: url("TLOGO3.png");
+    width: 190px;
+    height:190px;
+
+    padding: 30px 20px;  
+}
+.SLOGO3{
+    content: url("TLOGO1.png");
+    width: 160px;
+    height: 179px;
+
+    padding: 30px 40px;
+}
+
+.DAGWAY_EDUC{
+    width: 500px;
+    height: 750px;
+
+    float: left;
+
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 0px;
+
+    border: 9px solid rgb(34, 34, 34);
+    border-radius: 40px;
+}
+
+
+.AME-EDU1{
+    font-size: 33px;
+    font-family: 'Segoe UI';
+    text-align: left;
+    font-weight: bold;
+
+    color:black; 
+}
+.AME-EDU1 span{
+    font-size: 42px;
+}
+
+.AME-EDU2{
+    font-size: 33px;
+    font-family: 'Segoe UI';
+    text-align: left;
+    font-weight: bold;
+
+    color:black;
+}
+.AME-EDU2 span{
+    font-size: 42px;
+}
+
+.AME-EDU3{
+    font-size: 33px;
+    font-family: 'Segoe UI';
+    text-align: left;
+    font-weight: bold;
+
+    color:black;
+}
+.AME-EDU3 span{
+    font-size: 42px;
+}
+
+
+.BTN3{
+    all: unset;
+    font-size: 34px;
+   
+    margin-top: 40px;
+    margin-left: 180px;
+
+    height: 45px;
+
+    padding: 18px 52px;
+    background: linear-gradient(135deg, rgb(176, 9, 9), rgb(91, 3, 3));
+
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+
+    float: left;
+
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.BTN3 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ----------------------------------------- */
+
+.MYPROJECTS1{
+    background-image: url("REDBG_P1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1730px;
+    height: 1400px;
+
+    /* width: 206vh;
+    height: 100vh; */
+}
+.MYPROJECTS2{
+    background-image: url("REDBG_P2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 1730px;
+    height: 950px;
+}
+
+.MPP{
+    padding-top: 30px;
+    float: left;
+    color:white;
+
+    font-size: 81px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: 340px;
+}
+
+
+
+.MPP1{
+    margin-top: 110px;
+    margin-left: 125px;
+    float: left;
+
+    width: 797px;
+    height: 180px;
+    
+}
+.MPP1T{    
+    padding-top: 30px;
+    float: left;
+    color:white;
+
+    font-family: 'Segoe UI';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-bottom: 0px;
+
+}
+.INTER1{
+    margin-top: 110px;
+    margin-right: 100px;
+
+    float: right;
+
+    border: 4px solid white;
+
+    width: 620px;
+    height: 464px;
+}
+
+
+
+.MPP2{
+    margin-top: 170px;
+    margin-right: 60px;
+    float: right;
+
+    width: 817px;
+    height: 180px;
+}
+.MPP2T{    
+    padding-top: 30px;
+    float: right;
+    color:white;
+
+    font-family: 'Segoe UI';
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 15px;
+    margin-right: 120px;
+    margin-bottom: 0px;
+}
+.INTER2{
+    margin-top: 110px;
+    margin-left: 100px;
+
+    float: left;
+
+    border: 4px solid white;
+
+    width: 697px;
+    height: 440px;
+}
+
+
+
+.MPP3{
+    margin-top: 130px;
+    margin-left: 105px;
+    float: left;
+
+    width: 857px;
+    height: 195px;
+}
+.MPP3T{    
+    padding-top: 30px;
+    float: left;
+    color:white;
+
+    font-family: 'Segoe UI';    
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+}
+.INTER3{
+    margin-top: 150px;
+    margin-right: 110px;
+
+    float: right;
+
+    border: 4px solid white;
+
+    width: 557px;
+    height: 591px;
+}
+
+/* ----------------------------------------- */
+
+.Contact-Me {
+    background-image: url("BG4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1730px;
+    height: 1000px;
+
+    margin-top: 0px;
+}
+
+#contact{
+    scroll-margin-top: 30px;
+}
+.CME span {
+    color: red;
+}
+
+
+.CME {
+    text-align: left;
+    padding-top: 0px;
+    color:rgb(0, 0, 0);
+
+    float: left;
+
+    font-size: 87px;
+
+    margin-top: 120px;
+    margin-bottom: 70px;
+    margin-left: 70px;
+}
+
+.ContactDetails{
+    font-size: 32px;
+    color: red;
+    text-align: left;
+
+    float: left;
+
+    margin-left: 40px;
+    margin-top: 0px;
+    
+    padding-left: 30px;
+    padding-top: 0px;
+
+    text-indent: 20px
+}
+
+.Contact-Me2{
+    background: linear-gradient(135deg, rgb(168, 8, 8), rgb(36, 1, 1));
+    border-radius: 35px;
+    border: 7px solid black;
+    width: 730px;
+    height: 720px;
+
+    font-size: 13px;
+    float: right;
+
+    padding-left: 60px;
+    padding-top: 50px;
+
+    margin-top: 110px;
+    margin-right: 60px;
+
+    color: white;
+}
+
+
+
+.input1, .input2, .input3 {
+    border-radius: 15px;
+    font-family: 'Volkhov';
+    font-weight: bold;
+    font-size: 25px;
+
+    width: 540px;
+    height:65px;
+
+    padding-left:20px;
+    margin-top: 3px;
+}
+
+
+.BTN4{
+    all: unset;
+    font-size: 31px;
+    font-weight: bold;
+   
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    padding: 17px 52px;
+    background: linear-gradient(135deg, rgb(169, 9, 9), rgb(87, 4, 4));
+    color: white;
+
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+
+    border: 4px solid rgb(0, 0, 0);
+}
+
+
+.LOGO1{
+    content: url("LOGO1.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO2{
+    content: url("LOGO2.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO3{
+    content: url("LOGO3.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO4{
+    content: url("LOGO4.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO5{
+    content: url("LOGO5.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO6{
+    content: url("LOGO6.png");
+    width: 50px;
+    height: 50px;
+}
+.LOGO1T a, .LOGO2T a, .LOGO3T a, .LOGO4T a, .LOGO5T a, .LOGO6T a{
+    color: red;
+    text-decoration: none;
+}
+
+
+.Hide {
+    opacity: 0%;
+}
+
+
+
