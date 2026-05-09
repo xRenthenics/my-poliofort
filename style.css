@@ -1,5 +1,4 @@
 body{
-    margin: 0 0
 }
 
 .home {
@@ -11,7 +10,7 @@ body{
     font-size: 29px;
     height: 45px;
 
-    padding: 8px 45px;
+    padding: 14px 45px;
     background: linear-gradient(135deg, rgb(176, 9, 9), rgb(91, 3, 3));
 
     position: fixed;
@@ -21,7 +20,7 @@ body{
     float: left;
     border: 4px solid rgb(0, 0, 0);
 
-    margin-top: 762px;
+    margin-top: 712px;
     margin-bottom: 0px;
     margin-left: 1520px;
     margin-right: 0px;
@@ -66,6 +65,20 @@ body{
     margin-right: 170px;
 }
 /* ----------------------------------------- */
+
+.MAIN{
+    background-image: url("BG1-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1730px;
+    height: 1100px;
+
+    /* width: 206vh;
+    height: 100vh; */
+}
+
 .Fname {
     font-family: 'Volkhov';
     font-size: 65px;
@@ -166,26 +179,12 @@ nav ul li a {
     font-weight: bold;
 
 }
+
 /* ----------------------------------------- */
 
 html {
     scroll-behavior: smooth;
 }
-
-/* ----------------------------------------- */
-
-.MAIN{
-    background-image: url("BG1-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    width: 1730px;
-    height: 1100px;
-
-}
-
-
 
 /* ----------------------------------------- */
 .MYSKILLS1{
@@ -658,7 +657,7 @@ div .RED{
 
     font-size: 87px;
 
-    margin-top: 120px;
+    margin-top: 140px;
     margin-bottom: 70px;
     margin-left: 70px;
 }
@@ -774,6 +773,4 @@ div .RED{
 .Hide {
     opacity: 0%;
 }
-
-
 
