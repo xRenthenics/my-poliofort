@@ -3,41 +3,10 @@ body{
     padding: 1;
 }
 
-.home {
-    color: red;
-}
-
-.BTN0{
-    all: unset;
-    font-size: 29px;
-    height: 45px;
-
-    padding: 14px 45px;
-    background: linear-gradient(135deg, rgb(176, 9, 9), rgb(91, 3, 3));
-
-    position: fixed;
-    border-radius: 20px;
-    cursor: pointer;
-
-    float: left;
-    border: 4px solid rgb(0, 0, 0);
-
-    margin-top: 712px;
-    margin-bottom: 0px;
-    margin-left: 1520px;
-    margin-right: 0px;
-}
-
-.BTN0 a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-
 .MYPORT{
     float: left;
-    margin-right: 355px;
+    margin-right: 345px;
+    color: black;
 
     font-size: 43px;
     font-weight: bold;
@@ -66,6 +35,35 @@ body{
     margin-top: 110px;
     margin-right: 170px;
 }
+
+.MAIN1{
+    background-image: url("BG0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1710px;
+    height: 140px;
+
+    position: sticky;
+    top: 0;
+    
+}
+#home{
+    scroll-margin-top: 150px;
+}
+#skills{
+    scroll-margin-top: 120px;
+}
+#education{
+    scroll-margin-top: 120px;
+}
+#projects{
+    scroll-margin-top: 120px;
+}
+#contact{
+    scroll-margin-top: 220px;
+}
 /* ----------------------------------------- */
 
 .MAIN{
@@ -75,7 +73,7 @@ body{
     background-position: center;
     
     width: 1730px;
-    height: 1100px;
+    height: 900px;
 
     /* width: 206vh;
     height: 100vh; */
@@ -126,7 +124,6 @@ body{
     background: linear-gradient(135deg, rgb(147, 11, 11), rgb(91, 3, 3));
     color: white;
 
-    position: relative;
     border-radius: 20px;
     cursor: pointer;
 
@@ -155,7 +152,7 @@ nav ul {
     gap: 16px;
     list-style: none;
 
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: 60px;
     font-family: 'Volkhov';
     font-size: 10px;
@@ -176,7 +173,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 30px;
     padding: 10px 15px;
-    color: black;
+    color: rgb(187, 184, 184);
     transition: 0.2s;
     font-weight: bold;
 
@@ -466,7 +463,6 @@ div .RED{
     padding: 18px 52px;
     background: linear-gradient(135deg, rgb(176, 9, 9), rgb(91, 3, 3));
 
-    position: relative;
     border-radius: 20px;
     cursor: pointer;
 
@@ -642,9 +638,6 @@ div .RED{
     margin-top: 0px;
 }
 
-#contact{
-    scroll-margin-top: 30px;
-}
 .CME span {
     color: red;
 }
